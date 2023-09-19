@@ -7,10 +7,27 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        Manrope: ['Manrope'],
+        roboto: ['Roboto'],
+        Inter:['Inter'],
+        Jost:['Jost'],
+        kumbh:['Kumbh Sans'],
+        saira:['Saira'],
+        Nunito:['Nunito'],
+      
+      },
+      fontSize: {
+        clamp: "clamp(1rem, 4vw, 72px)",
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'hero-pattern': "url('/public/assets/hero-backgroung.svg')",
+
+      },
+      animation: {
+        shake: "shake 0.5s infinite",
+        floating: "floating 3s ease-in-out infinite",
+        ring : "ring 4s .7s ease-in-out infinite",
       },
     },
   },
