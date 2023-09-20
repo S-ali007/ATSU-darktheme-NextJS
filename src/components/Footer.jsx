@@ -1,15 +1,19 @@
+import Link from "next/link";
 import React from "react";
 
 function Footer() {
   return (
-    <div className="bg-[#000A1F]   w-full  mx-auto pt-[240px] pb-[30px]" >
-      <div className="max-w-[1114px] w-full mx-auto flex flex-col gap-[114px] "id="About">
+    <div className="bg-[#000A1F]   w-full  mx-auto pt-[240px] pb-[30px]">
+      <div
+        className="max-w-[1114px] w-full mx-auto flex flex-col gap-[114px] "
+        id="About"
+      >
         <div className="flex  max-w-[1114px] w-full  gap-[108px] ">
           {/* logo div */}
           <div className="max-w-[193px] w-full flex flex-col gap-[59px]">
-            <a href="#home">
+            <Link href="#home">
               <img src="/assets/Logo-Lift-2022-B.svg" alt="" />
-            </a>
+            </Link>
             <div>
               <div className="text-[22px]  font-Jost leading-[26px] font-[500] text-[#fff]">
                 Follow
@@ -79,24 +83,41 @@ function Footer() {
             {/* services */}
             <div className="max-w-[146.75px] w-full flex flex-col gap-[25px] ">
               <div className="max-w-[83px] w-full text-[22px]  font-Jost font-[500] leading-[26px] text-[#FFF]">
-                  Services
+                Services
               </div>
               <div className="flex flex-col gap-[20px] ">
-                <a href="/" className="max-w-[115px] w-full text-[16px]  font-kumbh text-[#fff] leading-[26px]   hover:border-b-sky-600  hover:border-b   border-b border-b-transparent ">
-                  <div className="  border-b-[2px] border-transparent">Product Design</div> 
-                </a>
-                <a href="/" className="max-w-[146.75px] w-full text-[16px]  font-kumbh text-[#FFF] leading-[26px]  hover:border-b-sky-600  hover:border-b   border-b border-b-transparent">
+                <Link
+                  href="/"
+                  className="max-w-[115px] w-full text-[16px]  font-kumbh text-[#fff] leading-[26px]   hover:border-b-sky-600  hover:border-b   border-b border-b-transparent "
+                >
+                  <div className="  border-b-[2px] border-transparent">
+                    Product Design
+                  </div>
+                </Link>
+                <Link
+                  href="/"
+                  className="max-w-[146.75px] w-full text-[16px]  font-kumbh text-[#FFF] leading-[26px]  hover:border-b-sky-600  hover:border-b   border-b border-b-transparent"
+                >
                   Business Consulting
-                </a>
-                <a href="/" className="max-w-[126.64px] w-full text-[16px]  font-kumbh text-[#FFF] leading-[26px]  hover:border-b-sky-600  hover:border-b   border-b border-b-transparent">
+                </Link>
+                <Link
+                  href="/"
+                  className="max-w-[126.64px] w-full text-[16px]  font-kumbh text-[#FFF] leading-[26px]  hover:border-b-sky-600  hover:border-b   border-b border-b-transparent"
+                >
                   Custome Service
-                </a>
-                <a href="/" className="max-w-[105.84px] w-full text-[16px]  font-kumbh text-[#FFF] leading-[26px]  hover:border-b-sky-600  hover:border-b   border-b border-b-transparent">
+                </Link>
+                <Link
+                  href="/"
+                  className="max-w-[105.84px] w-full text-[16px]  font-kumbh text-[#FFF] leading-[26px]  hover:border-b-sky-600  hover:border-b   border-b border-b-transparent"
+                >
                   Brand Identity
-                </a>
-                <a href="/" className="max-w-[133.11px] w-full text-[16px]  font-kumbh text-[#FFF] leading-[26px]  hover:border-b-sky-600  hover:border-b   border-b border-b-transparent">
+                </Link>
+                <Link
+                  href="/"
+                  className="max-w-[133.11px] w-full text-[16px]  font-kumbh text-[#FFF] leading-[26px]  hover:border-b-sky-600  hover:border-b   border-b border-b-transparent"
+                >
                   SEO Optimization
-                </a>
+                </Link>
               </div>
             </div>
             {/* Contact */}
@@ -105,18 +126,30 @@ function Footer() {
                 Contact
               </div>
               <div className="flex flex-col gap-[20px]">
-                <a href="/" className="max-w-[197.95px] w-full text-[16px]  font-kumbh text-[#FFF] leading-[26px] hover:border-b-sky-600  hover:border-b   border-b border-b-transparent hover:animate-underline-left-to-right">
+                <Link
+                  href="/"
+                  className="max-w-[197.95px] w-full text-[16px]  font-kumbh text-[#FFF] leading-[26px] hover:border-b-sky-600  hover:border-b   border-b border-b-transparent hover:animate-underline-left-to-right"
+                >
                   785 Main Street, 2nd Block melbourne, australia
-                </a>
-                <a href="/" className="max-w-[149.75px] w-full text-[16px]  font-kumbh text-[#FFF] leading-[26px]   hover:border-b-sky-600  hover:border-b   border-b border-b-transparent">
+                </Link>
+                <Link
+                  href="/"
+                  className="max-w-[149.75px] w-full text-[16px]  font-kumbh text-[#FFF] leading-[26px]   hover:border-b-sky-600  hover:border-b   border-b border-b-transparent"
+                >
                   support@gmail.com
-                </a>
-                <a href="/" className="max-w-[126.64px] w-full text-[16px]  font-kumbh text-[#FFF] leading-[26px]  hover:border-b-sky-600  hover:border-b   border-b border-b-transparent">
+                </Link>
+                <Link
+                  href="/"
+                  className="max-w-[126.64px] w-full text-[16px]  font-kumbh text-[#FFF] leading-[26px]  hover:border-b-sky-600  hover:border-b   border-b border-b-transparent"
+                >
                   Custome Service
-                </a>
-                <a href="/" className="max-w-[128px] w-full text-[16px]  font-kumbh text-[#FFF] leading-[26px]  hover:border-b-sky-600  hover:border-b   border-b border-b-transparent">
+                </Link>
+                <Link
+                  href="/"
+                  className="max-w-[128px] w-full text-[16px]  font-kumbh text-[#FFF] leading-[26px]  hover:border-b-sky-600  hover:border-b   border-b border-b-transparent"
+                >
                   +000 (123) 456 88
-                </a>
+                </Link>
               </div>
             </div>
             {/* News-Letter */}
@@ -125,9 +158,12 @@ function Footer() {
                 Newsletter
               </div>
               <div className="flex flex-col gap-[20px]">
-                <a href="/" className="max-w-[287.78px] w-full text-[24px]  font-Jost font-[500] leading-[35px] text-[#FFF]    ">
+                <Link
+                  href="/"
+                  className="max-w-[287.78px] w-full text-[24px]  font-Jost font-[500] leading-[35px] text-[#FFF]    "
+                >
                   Get Every Single Update to Join Our Newsletter
-                </a>
+                </Link>
                 <div className="max-w-[304px] w-full flex   justify-between    pt-[19px] pb-[20px] border-b-[1px] transform transition-transform cursor-pointer  ">
                   <div className="flex gap-[11.8px] items-center">
                     <div>
@@ -185,9 +221,15 @@ function Footer() {
             Copy@ 2023 Atsu. All Rights reserved
           </div>
           <div className=" max-w-[271px] w-full flex  text-[16px] font-kumbh leading-[30px] text-[#FFFFFFB2] justify-between">
-            <a href="/setting"><div className="max-w-[129px] w-full">Setting & Privacy</div></a>
-            <a href="/faq"><div className="max-w-[39px] w-full "> Faqs</div></a> 
-            <a href="#contact"><div className="max-w-[60px] w-full">Contact</div></a>
+            <Link href="/setting">
+              <div className="max-w-[129px] w-full">Setting & Privacy</div>
+            </Link>
+            <Link href="/faq">
+              <div className="max-w-[39px] w-full "> Faqs</div>
+            </Link>
+            <Link href="#contact">
+              <div className="max-w-[60px] w-full">Contact</div>
+            </Link>
           </div>
         </div>
       </div>

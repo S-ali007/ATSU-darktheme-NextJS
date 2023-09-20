@@ -53,7 +53,7 @@ function PeopleSayAboutOurSupport() {
         <div className=" absolute max-w-[1130px] w-full     ">
           {/* cards */}{" "}
           <Swiper
-            className="my-swiper  max-w-[1130px] w-full   absolute   cursor-pointer "
+            className="my-swiper  max-w-[1130px] w-full      cursor-pointer "
             modules={[Navigation, Pagination, Scrollbar, A11y]}
             spaceBetween={1}
             slidesPerView={2}

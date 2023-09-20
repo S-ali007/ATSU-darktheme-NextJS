@@ -1,13 +1,23 @@
 import './globals.css'
-import { ScrollTrigger } from 'gsap/all';
-import gsap from 'gsap';
 
 
-
-gsap.registerPlugin(ScrollTrigger);
+import { Jost , } from 'next/font/google' 
+import { Manrope } from 'next/font/google'
 import { Inter } from 'next/font/google'
+import { Kumbh_Sans } from 'next/font/google'
+import { Nunito } from 'next/font/google'
+import { Saira } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+
+export const manrope = Manrope({ subsets: ['latin'] })
+export const inter = Inter({ subsets: ['latin'] })
+export const kumbh_Sans = Kumbh_Sans({ subsets: ['latin'] })
+export const nunito = Nunito({ subsets: ['latin'] })
+export const saira = Saira({ subsets: ['latin'] })
+export const jost = Jost({ subsets: ['latin'] })
+// const roboto = Roboto({ subsets: ['latin'] })
+
 
 export const metadata = {
   title: 'ATSU',
@@ -17,7 +27,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{ children}</body>
+      <body className={` ${jost.className} `}>{ children}</body>
     </html>
   )
 }
+
+// Manrope: ['Manrope'],
+//         roboto: ['Roboto'],
+//         Inter:['Inter'],
+//         Jost:['Jost'],
+//         kumbh:['Kumbh Sans'],
+//         saira:['Saira'],
+//         Nunito:['Nunito'],

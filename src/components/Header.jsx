@@ -1,49 +1,52 @@
+import Link from "next/link";
 import React from "react";
+import { Jost } from "next/font/google";
+
 
 function Header({ extraClasses }) {
   return (
-    <div
-      className={` header z-10   flex justify-center items-center gap-[147px] pt-[64px] pb-[7px]  ${extraClasses} mx-auto`}
+    <div 
+      className={` header z-10    flex justify-center items-center gap-[147px] pt-[64px] pb-[7px]  ${extraClasses} mx-auto  font-Jost  `}
     >
+     
       {/* navbar-logo */}
       <div>
-        <a href="/home"><img src="/assets/Logo Navbar.svg" alt="" /></a>
-        
+        <Link href="/home"><img src="/assets/Logo Navbar.svg" alt="" /></Link>
       </div>
       {/* navbar options */}
-      <div className="  font-Jost flex  justify-between items-center gap-[44.5px]">
-        <a href="#home">
+      <div className={` font-Jost flex  justify-between items-center gap-[44.5px] ` }>
+        <Link href="#home">
           <button className="flex  gap-[4.83px] justify-center items-center  max-w-[53px] w-full text-[#FFFFFF] font-[500] text-[20px] hover:underline underline-offset-[8px]">
             <span>Home</span>
             <img src="/assets/navbar-home-Arrow.svg" alt="" />
           </button>
-        </a>
-        <a href="#Clients">
+        </Link>
+        <Link href="#Clients">
           <button className="flex  gap-[4.83px] justify-center items-center  max-w-[53px] w-full text-[#FFFFFF] font-[500] text-[20px] hover:underline underline-offset-[8px]">
             <span>Clients</span>
             <img src="/assets/navbar-home-Arrow.svg" alt="" />
           </button>
-        </a>
-        <a href="#Services">
+        </Link>
+        <Link href="#Services">
           <button className="flex  gap-[4.83px] justify-center items-center  max-w-[53px] w-full text-[#FFFFFF] font-[500] text-[20px] hover:underline underline-offset-[8px]">
             <span>Services</span>
             <img src="/assets/navbar-home-Arrow.svg" alt="" />
           </button>
-        </a>
-        <a href="#Projects">
+        </Link>
+        <Link href="#Projects">
           <button className="flex  gap-[4.83px] justify-center items-center  max-w-[53px] w-full text-[#FFFFFF] font-[500] text-[20px] hover:underline underline-offset-[8px]">
             <span>Projects</span>
             <img src="/assets/navbar-home-Arrow.svg" alt="" />
           </button>
-        </a>
-        <a href="#letsseeourcompany">
+        </Link>
+        <Link href="#letsseeourcompany">
           <button className="flex  gap-[4.83px] justify-center items-center  max-w-[53px] w-full text-[#FFFFFF] font-[500] text-[20px] hover:underline underline-offset-[8px]">
             <span>About</span>
             <img src="/assets/navbar-home-Arrow.svg" alt="" />
           </button>
-        </a>
+        </Link>
         <button className="flex  gap-[4.83px] justify-center items-center  max-w-[53px] w-full text-[#FFFFFF] font-[500] text-[20px] hover:underline underline-offset-[8px]">
-          <a href="#contact">Contact</a>
+          <Link href="#contact">Contact</Link>
         </button>
       </div>
       {/* hamberger */}

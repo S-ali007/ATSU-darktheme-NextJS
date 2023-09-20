@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 import TypeWriterComponent from "./TypeWriterComponent";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { gsap } from "gsap";
+import { Kumbh_Sans } from "next/font/google";
+import { kumbh_Sans } from "@/app/layout";
 
 function ExploreOurPersonal() {
   const [solution, setSolution] = useState([
@@ -119,7 +121,7 @@ function ExploreOurPersonal() {
               <img className="" src="/assets/pseudo.svg" alt="" />
             </div>
 
-            <div className="max-w-[772px] w-full relative font-[900]  text-transparent border-[#FFFFFF26] text-[150px] font-outline-2 hover:font-outline-4   font-kumbh uppercase ">
+            <div className={`${kumbh_Sans} max-w-[772px] w-full relative font-[900]  text-transparent border-[#FFFFFF26] text-[150px] font-outline-2 hover:font-outline-4   font-kumbh uppercase `}>
               features
             </div>
           </div>

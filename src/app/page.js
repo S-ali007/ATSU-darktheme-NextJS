@@ -15,15 +15,16 @@ import './globals.css'
 
 
 
+
 export default function Home() {
   return (
 
   
    
-    <div className="App mx-[auto] ">
+    <main className="App mx-[auto] ">
       {/* Head */}
       <div className="bg-[url('/assets/hero-backgroung.svg')] trigger  " >
-        <Header />
+        <Header  />
         <HeroSection/>
       </div>
       <ExploreOurPersonal/>
@@ -36,7 +37,7 @@ export default function Home() {
       <ReadytoWorktogether/>
       <Footer/>
 
-      </div>
+      </main>
    
     
     

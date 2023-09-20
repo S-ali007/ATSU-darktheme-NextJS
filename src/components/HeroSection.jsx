@@ -13,6 +13,8 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { useRef, useEffect } from "react";
 
+import { kumbh_Sans } from "@/app/layout";
+
 // gsap.registerPlugin(ScrollTrigger);
 
 function HeroSection({ extraClasses }) {
@@ -151,12 +153,12 @@ function HeroSection({ extraClasses }) {
         <div className="flex gap-[179px] relative  justify-between  trigger max-w-[1294px] w-full">
           <div className="text-[#ffffff] relative   font-Jost mt-[60px] left-[200px] max-w-[720px] w-full ">
             <div className=" tracking-[-0.75px] leading-[75px] flex">
-              <div className=" font-[600] max-w-[500px] w-full  font-Jost  text-clamp  min-h-[258px] h-full  ">
-                <h1 className="">
+              <div className="smartBussinesss  font-[600] max-w-[500px] w-full  text-[75px] font-Jost  min-h-[258px] h-full  ">
+               
                   <TypeWriterComponent
                     text={"We Provide Smart Business Solutions"}
                   />
-                </h1>
+               
               </div>
               <div className="absolute top-[-65px] left-[340px] scroll-trigger-element5 w-0">
                 {" "}
@@ -208,13 +210,13 @@ function HeroSection({ extraClasses }) {
                     <img className="" src="/assets/pseudo.svg" alt="" />
                   </div>
 
-                  <div className="max-w-[555px] w-full relative font-[900]  text-transparent border-[#FFFFFF26] text-[150px] font-outline-2 hover:font-outline-4   font-kumbh uppercase mt-[-70px]">
+                  <div  className={`${kumbh_Sans.className} max-w-[555px] w-full relative font-[900]  text-transparent border-[#FFFFFF26] text-[150px] font-outline-2 hover:font-outline-4  uppercase mt-[-70px]`}>
                     brand
                   </div>
                 </div>
 
                 <div className="">
-                  <h1 className="max-w-[483px] w-full text-[#A8ADB3]  text-[16px] font-kumbh text-[#A8ADB3]flex flex-col  justify-end leading-[32px] mt-[54px]">
+                  <h1 className={`${kumbh_Sans.className } max-w-[483px] w-full text-[#A8ADB3]  text-[16px] font-kumbh text-[#A8ADB3]flex flex-col  justify-end leading-[32px] mt-[54px]`}>
                     Sed ut perspiciatis unde omnis natus error voluptatem
                     santium doloremque laudantium, totam rem aperiam, eaque ipsa
                     quae ab nllo inventore veritatis quasi architecto beatae

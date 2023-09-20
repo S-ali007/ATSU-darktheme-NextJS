@@ -7,16 +7,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        Manrope: ['Manrope'],
-        roboto: ['Roboto'],
-        Inter:['Inter'],
-        Jost:['Jost'],
-        kumbh:['Kumbh Sans'],
-        saira:['Saira'],
-        Nunito:['Nunito'],
-      
-      },
+    
       fontSize: {
         clamp: "clamp(1rem, 4vw, 72px)",
       },
