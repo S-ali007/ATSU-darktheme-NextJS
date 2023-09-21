@@ -11,42 +11,42 @@ function Header({ extraClasses }) {
      
       {/* navbar-logo */}
       <div>
-        <Link href="#home"><img src="/assets/Logo Navbar.svg" alt="" /></Link>
+        <a href="#home"><img src="/assets/Logo Navbar.svg" alt="" /></a>
       </div>
       {/* navbar options */}
       <div className={` font-Jost flex  justify-between items-center gap-[44.5px] ` }>
-        <Link href="#home">
+        <a href="#home">
           <button className="flex  gap-[4.83px] justify-center items-center  max-w-[53px] w-full text-[#FFFFFF] font-[500] text-[20px] hover:underline underline-offset-[8px]">
             <span>Home</span>
             <img src="/assets/navbar-home-Arrow.svg" alt="" />
           </button>
-        </Link>
-        <Link href="#Clients">
+        </a>
+        <a href="#Clients">
           <button className="flex  gap-[4.83px] justify-center items-center  max-w-[53px] w-full text-[#FFFFFF] font-[500] text-[20px] hover:underline underline-offset-[8px]">
             <span>Clients</span>
             <img src="/assets/navbar-home-Arrow.svg" alt="" />
           </button>
-        </Link>
-        <Link href="#Services">
+        </a>
+        <a href="#Services">
           <button className="flex  gap-[4.83px] justify-center items-center  max-w-[53px] w-full text-[#FFFFFF] font-[500] text-[20px] hover:underline underline-offset-[8px]">
             <span>Services</span>
             <img src="/assets/navbar-home-Arrow.svg" alt="" />
           </button>
-        </Link>
-        <Link href="#Projects">
+        </a>
+        <a href="#Projects">
           <button className="flex  gap-[4.83px] justify-center items-center  max-w-[53px] w-full text-[#FFFFFF] font-[500] text-[20px] hover:underline underline-offset-[8px]">
             <span>Projects</span>
             <img src="/assets/navbar-home-Arrow.svg" alt="" />
           </button>
-        </Link>
-        <Link href="#letsseeourcompany">
+        </a>
+        <a href="#letsseeourcompany">
           <button className="flex  gap-[4.83px] justify-center items-center  max-w-[53px] w-full text-[#FFFFFF] font-[500] text-[20px] hover:underline underline-offset-[8px]">
             <span>About</span>
             <img src="/assets/navbar-home-Arrow.svg" alt="" />
           </button>
-        </Link>
+        </a>
         <button className="flex  gap-[4.83px] justify-center items-center  max-w-[53px] w-full text-[#FFFFFF] font-[500] text-[20px] hover:underline underline-offset-[8px]">
-          <Link href="#contact">Contact</Link>
+          <a href="#contact">Contact</a>
         </button>
       </div>
       {/* hamberger */}
