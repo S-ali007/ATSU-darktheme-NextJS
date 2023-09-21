@@ -1,5 +1,7 @@
 import Link from "next/link";
 import React from "react";
+import { kumbh_Sans } from "@/app/layout";
+
 
 function Footer() {
   return (
@@ -85,7 +87,7 @@ function Footer() {
               <div className="max-w-[83px] w-full text-[22px]  font-Jost font-[500] leading-[26px] text-[#FFF]">
                 Services
               </div>
-              <div className="flex flex-col gap-[20px] ">
+              <div className={`${kumbh_Sans.className} flex flex-col gap-[20px] `}>
                 <Link
                   href="/"
                   className="max-w-[115px] w-full text-[16px]  font-kumbh text-[#fff] leading-[26px]   hover:border-b-sky-600  hover:border-b   border-b border-b-transparent "
@@ -125,7 +127,7 @@ function Footer() {
               <div className="max-w-[74.98px] w-full text-[22px]  font-Jost font-[500] leading-[26px] text-[#FFF]">
                 Contact
               </div>
-              <div className="flex flex-col gap-[20px]">
+              <div className={`${kumbh_Sans.className} flex flex-col gap-[20px]`}>
                 <Link
                   href="/"
                   className="max-w-[197.95px] w-full text-[16px]  font-kumbh text-[#FFF] leading-[26px] hover:border-b-sky-600  hover:border-b   border-b border-b-transparent hover:animate-underline-left-to-right"
@@ -164,7 +166,7 @@ function Footer() {
                 >
                   Get Every Single Update to Join Our Newsletter
                 </Link>
-                <div className="max-w-[304px] w-full flex   justify-between    pt-[19px] pb-[20px] border-b-[1px] transform transition-transform cursor-pointer  ">
+                <div className={`${kumbh_Sans.className} max-w-[304px] w-full flex   justify-between    pt-[19px] pb-[20px] border-b-[1px] transform transition-transform cursor-pointer  `}>
                   <div className="flex gap-[11.8px] items-center">
                     <div>
                       <svg
@@ -216,7 +218,7 @@ function Footer() {
           </div>
         </div>
         {/* CopyRightAnd Faqs */}
-        <div className="flex justify-between ">
+        <div className={`${kumbh_Sans.className} flex justify-between` }>
           <div className="max-w-[281px] w-full text-[16px] font-kumbh leading-[30px] text-[#FFFFFFB2]">
             Copy@ 2023 Atsu. All Rights reserved
           </div>

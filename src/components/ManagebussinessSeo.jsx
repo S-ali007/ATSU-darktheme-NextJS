@@ -3,6 +3,9 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { gsap } from "gsap";
 import TypeWriterComponent from "./TypeWriterComponent";
 import { useRef, useEffect } from "react";
+import { kumbh_Sans } from "@/app/layout";
+
+
 function ManagebussinessSeo() {
   gsap.registerPlugin(ScrollTrigger);
 
@@ -82,7 +85,7 @@ function ManagebussinessSeo() {
                 </div>
               </div>
               {/* paragraph-section-left*/}
-              <div className="mt-[24px]  text-[#A8ADB3] text-[16px]  font-kumbh leading-[32px] max-w-[437px] w-full ml-[40px]">
+              <div className={`${kumbh_Sans.className} mt-[24px]  text-[#A8ADB3] text-[16px]  font-kumbh leading-[32px] max-w-[437px] w-full ml-[40px]`}>
                 <p>
                   Quis autem vel eum iure reprehenderit qui in ea voluptates
                   velit esse quam molestiae consequatur velillum
@@ -125,7 +128,7 @@ function ManagebussinessSeo() {
                         className={`bg-[#232331] ${faq.open ? " max-h-[250px] " : " max-h-0 " } overflow-hidden h-[full] 0.3s ease-in-out max-w-[440px] w-full transition-all duration-700  ml-[65px]  pr-[13.3px] pb-[6px] pl-[8px]`}
                       >
                         <div className="text-[#67687A]">
-                          <p className="text-[16px]   font-kumbh leading-8">
+                          <p className={`${kumbh_Sans.className} text-[16px]   font-kumbh leading-8`}>
                             {faq.answer}
                           </p>
                         </div>

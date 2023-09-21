@@ -2,6 +2,7 @@ import React from "react";
 import { useState ,useEffect } from "react";
 import TypeWriterComponent from "./TypeWriterComponent";
 import { useInView } from "react-intersection-observer";
+import { kumbh_Sans } from "@/app/layout";
 
 
 function WeAreAwardWinning() {
@@ -96,11 +97,11 @@ function WeAreAwardWinning() {
               <div className="relative top-[89px]  justify-center  flex  max-w-[84px] w-full left-[40px]">
                 <img className="" src="/assets/pseudo.svg" alt="" />
               </div>
-              <div className="font-[900]  text-transparent border-[#FFFFFF26] text-[150px] font-outline-2 hover:font-outline-4  cursor-pointer font-kumbh uppercase flex justify-center items-center">
+              <div className={`${kumbh_Sans.className} font-[900]  text-transparent border-[#FFFFFF26] text-[150px] font-outline-2 hover:font-outline-4  cursor-pointer font-kumbh uppercase flex justify-center items-center`}>
                 WHO
               </div>
             </div>
-            <div className="mt-[124px] text-[#fff] font-[18px]   font-kumbh leading-[32px] max-w-[533px] w-full pl-[40px]">
+            <div className={`${kumbh_Sans.className} mt-[124px] text-[#fff] text-[18px]   font-kumbh leading-[32px] max-w-[533px] w-full pl-[40px]`}>
               <p>
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                 accusantium doloremque laudantium totam rem aperiam eaque epsa
@@ -154,7 +155,7 @@ function WeAreAwardWinning() {
                         </svg>
                       </div>
                       <div className=" max-w-[125px] w-full">
-                        <p className=" text-base text-[#fff] font-[600]  font-kumbh">
+                        <p className={`${kumbh_Sans.className}  text-base text-[#fff] font-[600]  font-kumbh`}>
                           {item.title}
                         </p>
                       </div>

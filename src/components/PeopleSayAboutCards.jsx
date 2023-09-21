@@ -1,4 +1,6 @@
 import React from 'react'
+import { kumbh_Sans } from "@/app/layout";
+
 
 function PeopleSayAboutCards({designation,img,text,username,id}) {
   return (
@@ -12,7 +14,7 @@ function PeopleSayAboutCards({designation,img,text,username,id}) {
                   </div>
                   {/* card-text */}
                   <div className="mt-[23px] max-w-[425px] w-full pt-[3px] pr-[1.33px] pb-[35px] border-b-[1px] border-[#464548]">
-                    <div className="text-[22px]   font-kumbh text-[#67687A] ">
+                    <div className={`${kumbh_Sans.className} text-[22px]   font-kumbh text-[#67687A] `}>
                       {text}
                     </div>
                   </div>
@@ -22,7 +24,7 @@ function PeopleSayAboutCards({designation,img,text,username,id}) {
                       <div className="text-[24px] font-Jost font-[600] text-[#FFF]">
                         {username}
                       </div>
-                      <div className="text-[16px]   font-kumbh text-[#67687A]  ">
+                      <div className={`text-[16px]   font-kumbh text-[#67687A]  ${kumbh_Sans.className}`}>
                         {designation}
                       </div>
                     </div>

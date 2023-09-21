@@ -3,7 +3,7 @@ import TypeWriterComponent from "./TypeWriterComponent";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { gsap } from "gsap";
 import { useEffect } from "react";
-
+import { nunito } from "@/app/layout";
 function ReadytoWorktogether() {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -55,7 +55,7 @@ function ReadytoWorktogether() {
             </div>
           </div>
           {/* input-section-left*/}
-          <div className="mt-[28px]  text-[#A8ADB3]    max-w-[530px] w-full flex flex-col  ml-[45px] gap-[12px]">
+          <div className={`${nunito.className} mt-[28px]  text-[#A8ADB3]    max-w-[530px] w-full flex flex-col  ml-[45px] gap-[12px]`}>
             <div className="max-w-[485px] w-full pl-[16px]   py-[16px] bg-[#FAFAFA] rounded-[4px]  ">
               <input
                 type="text"

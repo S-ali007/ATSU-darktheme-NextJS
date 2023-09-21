@@ -1,6 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import TypeWriterComponent from "./TypeWriterComponent";
+import { kumbh_Sans } from "@/app/layout";
+import { saira } from "@/app/layout";
 
 function LetsSeeOurcompany() {
   const [cards, setCards] = useState([
@@ -47,7 +49,7 @@ function LetsSeeOurcompany() {
               </div>
               {/* paragraph-section-left*/}
               <div className="mt-[72px]  text-[#A8ADB3] text-[16px]   font-kumbh  max-w-[449px] w-full ml-[40px]">
-                <p className="font-kumbh leading-8 text-[#A8ADB3]">
+                <p className={`${kumbh_Sans.className}  font-kumbh leading-8 text-[#A8ADB3]`}>
                   Sed ut perspiciatis unde omnis iste natus error sit ways
                   voluptatem accusantium doloremque laudantium totam rem aperiam
                   eaque epsa quae abillo inventore
@@ -113,7 +115,7 @@ function LetsSeeOurcompany() {
                           <p className="text-[35px] font-Jost font-[700] text-[#E4E4E4]">
                             {card.text}
                           </p>
-                          <p className="  font-saira text-[35px] font-[700] text-[#E4E4E4] leading-[55px] relative bottom-[10px]">
+                          <p className={`${saira.className}  font-saira text-[35px] font-[700] text-[#E4E4E4] leading-[55px] relative bottom-[10px]"`}>
                             +
                           </p>
                         </div>

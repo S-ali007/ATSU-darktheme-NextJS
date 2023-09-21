@@ -1,6 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import TypeWriterComponent from "./TypeWriterComponent";
+import { kumbh_Sans } from "@/app/layout";
+
 
 
 function GreatFeaturestoDo() {
@@ -43,7 +45,7 @@ function GreatFeaturestoDo() {
             <div className="relative top-[89px]  justify-center  flex  max-w-[84px] w-full ">
               <img className="" src="/assets/pseudo.svg" alt="" />
             </div>
-            <div className="font-[900]  text-transparent border-[#FFFFFF26] text-[150px] font-outline-2 hover:font-outline-4   font-kumbh uppercase flex justify-center items-center">
+            <div className={`${kumbh_Sans.className} font-[900]  text-transparent border-[#FFFFFF26] text-[150px] font-outline-2 hover:font-outline-4   font-kumbh uppercase flex justify-center items-center `}>
            Services
             </div>
           </div>
@@ -51,11 +53,7 @@ function GreatFeaturestoDo() {
         <div className="flex  mt-[76px] gap-[58px]">
           {/* left side */}
           <div className="max-w-[536px] w-full">
-            <div className="mt-[45px]"> <img
-            
-              src="/assets/Great Features- leftside-icon-two-dark.svg"
-              alt=""
-            /></div>
+            <div className="mt-[45px]"> <img src="/assets/Great Features- leftside-icon-two-dark.svg" alt="" /></div>
            
           </div>
           {/* right side */}
@@ -71,10 +69,10 @@ function GreatFeaturestoDo() {
               {/* ------ */}
               <div className="flex  gap-[10px] justify-center items-center">
                 <div className=" max-w-[315px] w-full">
-                  <p className=" text-base text-[#fff] font-[600]  font-kumbh leading-7">
+                  <p className=" text-[24px] text-[#fff] font-[600]  font-kumbh leading-7 ">
                     Graphics Design
                   </p>
-                  <p className="text-[#67687A]   font-kumbh text-[16px] mt-[2.8px] leading-7">Sed perspiciatis unde omnis natus error voluptatem</p>
+                  <p className={`${kumbh_Sans.className} text-[#67687A]   font-kumbh text-[16px] mt-[2.8px] leading-7`}>Sed perspiciatis unde omnis natus error voluptatem</p>
                 </div>
                 
                 <div className="max-w-[60px] h-[60px] w-full   rounded-[50px] items-center justify-center flex bg-[#232331] hover:cursor-pointer">
@@ -107,10 +105,9 @@ function GreatFeaturestoDo() {
               {/* ------ */}
               <div className="flex  gap-[10px] justify-center items-center">
                 <div className=" max-w-[315px] w-full">
-                  <p className=" text-base text-[#fff] font-[600]  font-kumbh leading-7">
-                    Graphics Design
-                  </p>
-                  <p className="text-[#67687A]   font-kumbh text-[16px] mt-[2.8px] leading-7">Sed perspiciatis unde omnis natus error voluptatem</p>
+                  <p className=" text-[24px] text-[#fff] font-[600]  font-kumbh leading-7">
+                  Ideation & Evaluation  </p>
+                  <p className={` ${kumbh_Sans.className} text-[#67687A]   font-kumbh text-[16px] mt-[2.8px] leading-7`}>Sed perspiciatis unde omnis natus error voluptatem</p>
                 </div>
                 
                 <div className="max-w-[60px] h-[60px] w-full   rounded-[50px] items-center justify-center flex bg-[#232331] hover:cursor-pointer">
@@ -143,10 +140,10 @@ function GreatFeaturestoDo() {
               {/* ------ */}
               <div className="flex  gap-[10px] justify-center items-center">
                 <div className=" max-w-[315px] w-full">
-                  <p className=" text-base text-[#fff] font-[600]  font-kumbh leading-7">
-                    Graphics Design
+                  <p className=" text-[24px] text-[#fff] font-[600]  font-kumbh leading-7">
+                  Brand Identity
                   </p>
-                  <p className="text-[#67687A]   font-kumbh text-[16px] mt-[2.8px] leading-7">Sed perspiciatis unde omnis natus error voluptatem</p>
+                  <p className={` ${kumbh_Sans.className} text-[#67687A]   font-kumbh text-[16px] mt-[2.8px] leading-7`}>Sed perspiciatis unde omnis natus error voluptatem</p>
                 </div>
                 
                 <div className="max-w-[60px] h-[60px] w-full   rounded-[50px] items-center justify-center flex bg-[#232331] hover:cursor-pointer">
@@ -179,10 +176,9 @@ function GreatFeaturestoDo() {
               {/* ------ */}
               <div className="flex  gap-[10px] justify-center items-center">
                 <div className=" max-w-[315px] w-full">
-                  <p className=" text-base text-[#fff] font-[600]  font-kumbh leading-7">
-                    Graphics Design
-                  </p>
-                  <p className="text-[#67687A]   font-kumbh text-[16px] mt-[2.8px] leading-7">Sed perspiciatis unde omnis natus error voluptatem</p>
+                  <p className=" text-[24px] text-[#fff] font-[600]  font-kumbh leading-7">
+                  Custome Service                  </p>
+                  <p className={`${kumbh_Sans.className} text-[#67687A]   font-kumbh text-[16px] mt-[2.8px] leading-7`}>Sed perspiciatis unde omnis natus error voluptatem</p>
                 </div>
                 
                 <div className="max-w-[60px] h-[60px] w-full   rounded-[50px] items-center justify-center flex bg-[#232331] hover:cursor-pointer">
@@ -215,10 +211,9 @@ function GreatFeaturestoDo() {
               {/* ------ */}
               <div className="flex  gap-[10px] justify-center items-center">
                 <div className=" max-w-[315px] w-full">
-                  <p className=" text-base text-[#fff] font-[600]  font-kumbh leading-7">
-                    Graphics Design
-                  </p>
-                  <p className="text-[#67687A]   font-kumbh text-[16px] mt-[2.8px] leading-7">Sed perspiciatis unde omnis natus error voluptatem</p>
+                  <p className=" text-[24px] text-[#fff] font-[600]  font-kumbh leading-7">
+                  Web Strategy                  </p>
+                  <p className={`${kumbh_Sans.className} text-[#67687A]   font-kumbh text-[16px] mt-[2.8px] leading-7`}>Sed perspiciatis unde omnis natus error voluptatem</p>
                 </div>
                 
                 <div className="max-w-[60px] h-[60px] w-full   rounded-[50px] items-center justify-center flex bg-[#232331] hover:cursor-pointer">

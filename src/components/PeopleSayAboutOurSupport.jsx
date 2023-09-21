@@ -4,6 +4,7 @@ import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import TypeWriterComponent from "./TypeWriterComponent";
 import { Swiper, SwiperSlide } from "swiper/react";
 import PeopleSayAboutCards from "./PeopleSayAboutCards";
+import { kumbh_Sans } from "@/app/layout";
 
 function PeopleSayAboutOurSupport() {
   const [cards, setCards] = useState([
@@ -42,7 +43,7 @@ function PeopleSayAboutOurSupport() {
             <div className="relative top-[89px]  justify-center  flex  max-w-[84px] w-full ">
               <img className="" src="/assets/pseudo.svg" alt="" />
             </div>
-            <div className="font-[900]  text-transparent border-[#FFFFFF26] text-[150px] font-outline-2 hover:font-outline-4   font-kumbh uppercase flex justify-center items-center">
+            <div className={`${kumbh_Sans.className} font-[900]  text-transparent border-[#FFFFFF26] text-[150px] font-outline-2 hover:font-outline-4   font-kumbh uppercase flex justify-center items-center`}>
               say’s
             </div>
           </div>

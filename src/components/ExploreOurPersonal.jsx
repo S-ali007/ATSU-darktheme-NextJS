@@ -121,7 +121,7 @@ function ExploreOurPersonal() {
               <img className="" src="/assets/pseudo.svg" alt="" />
             </div>
 
-            <div className={`${kumbh_Sans} max-w-[772px] w-full relative font-[900]  text-transparent border-[#FFFFFF26] text-[150px] font-outline-2 hover:font-outline-4   font-kumbh uppercase `}>
+            <div className={`${kumbh_Sans.className} max-w-[772px] w-full relative font-[900]  text-transparent border-[#FFFFFF26] text-[150px] font-outline-2 hover:font-outline-4   font-kumbh uppercase `}>
               features
             </div>
           </div>
@@ -144,7 +144,7 @@ function ExploreOurPersonal() {
                         {solutions.title}
                       </div>
 
-                      <div className="w-[210px]  text-[#67687A]  font-kumbh">
+                      <div className={`w-[210px]  text-[#67687A] text-[16px] ${kumbh_Sans.className} `}>
                         {solutions.Description}
                       </div>
                     </div>
