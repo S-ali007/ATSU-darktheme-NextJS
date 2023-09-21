@@ -11,7 +11,7 @@ function Header({ extraClasses }) {
      
       {/* navbar-logo */}
       <div>
-        <Link href="/home"><img src="/assets/Logo Navbar.svg" alt="" /></Link>
+        <Link href="#home"><img src="/assets/Logo Navbar.svg" alt="" /></Link>
       </div>
       {/* navbar options */}
       <div className={` font-Jost flex  justify-between items-center gap-[44.5px] ` }>
