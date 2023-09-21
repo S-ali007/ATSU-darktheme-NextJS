@@ -16,7 +16,7 @@ import { kumbh_Sans } from "@/app/layout";
 
 function CheckOutOurRecentProject() {
   const paginationStyle = {
-    color: "purple", // Set your desired color here
+    color: "purple", 
   };
 
   return (
