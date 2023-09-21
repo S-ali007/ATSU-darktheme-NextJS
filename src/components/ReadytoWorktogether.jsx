@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 import TypeWriterComponent from "./TypeWriterComponent";
 import { ScrollTrigger } from "gsap/ScrollTrigger";

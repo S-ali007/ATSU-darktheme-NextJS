@@ -1,3 +1,5 @@
+'use client'
+
 import React, { useState } from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { gsap } from "gsap";

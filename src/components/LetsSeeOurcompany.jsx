@@ -1,4 +1,8 @@
+"use client";
+
+
 import React from "react";
+
 import { useState } from "react";
 import TypeWriterComponent from "./TypeWriterComponent";
 import { kumbh_Sans } from "@/app/layout";
@@ -26,7 +30,10 @@ function LetsSeeOurcompany() {
     },
   ]);
   return (
-    <div className="bg-[#000A1F] max-w-[1920px] w-full  mx-auto pt-[128px]" id="letsseeourcompany">
+    <div
+      className="bg-[#000A1F] max-w-[1920px] w-full  mx-auto pt-[128px]"
+      id="letsseeourcompany"
+    >
       <div className="max-w-[1334px] w-full  mx-auto pl-[100px] mt-[50px] pt-[32px] pb-[10px] ">
         {/* main-content div */}
         <div className="flex gap-[307px]">
@@ -36,7 +43,8 @@ function LetsSeeOurcompany() {
             <div>
               <div className="max-w-[447px] w-full text-[42px] font-Jost absolute ml-[39px] mt-[120px] font-[600] leading-[53px] text-[white] ">
                 <TypeWriterComponent
-                    text={"Let’s See Our Company Achievement"}/>
+                  text={"Let’s See Our Company Achievement"}
+                />
               </div>
 
               <div className="max-w-[363px] w-full relative flex flex-col   ">
@@ -49,7 +57,9 @@ function LetsSeeOurcompany() {
               </div>
               {/* paragraph-section-left*/}
               <div className="mt-[72px]  text-[#A8ADB3] text-[16px]   font-kumbh  max-w-[449px] w-full ml-[40px]">
-                <p className={`${kumbh_Sans.className}  font-kumbh leading-8 text-[#A8ADB3]`}>
+                <p
+                  className={`${kumbh_Sans.className}  font-kumbh leading-8 text-[#A8ADB3]`}
+                >
                   Sed ut perspiciatis unde omnis iste natus error sit ways
                   voluptatem accusantium doloremque laudantium totam rem aperiam
                   eaque epsa quae abillo inventore
@@ -115,7 +125,9 @@ function LetsSeeOurcompany() {
                           <p className="text-[35px] font-Jost font-[700] text-[#E4E4E4]">
                             {card.text}
                           </p>
-                          <p className={`${saira.className}  font-saira text-[35px] font-[700] text-[#E4E4E4] leading-[55px] relative bottom-[10px]"`}>
+                          <p
+                            className={`${saira.className}  font-saira text-[35px] font-[700] text-[#E4E4E4] leading-[55px] relative bottom-[10px]"`}
+                          >
                             +
                           </p>
                         </div>
